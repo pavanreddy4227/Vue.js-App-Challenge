@@ -26,7 +26,7 @@ const large = new Vue({
       const j = this.secondString
       
       
-      return `${this.guest},your multi is ${larger(i, j)}.`
+      return `${this.guest},your Largets Word is ${larger(i, j)}.`
     }
   }
 })
