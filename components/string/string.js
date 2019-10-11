@@ -6,7 +6,7 @@ function larger  (x, y)  {
   {
     return x
   }
-  else{
+  else if(b<a){
     return y
   }
 }
