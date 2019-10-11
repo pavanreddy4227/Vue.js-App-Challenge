@@ -24,45 +24,43 @@
   <link href="index.css" rel="stylesheet">
 
   <!-- Vue component styles -->
- 
- 
- 
-  <link href="components/string/string.css" rel="stylesheet">
+   <link href="components/string/string.css" rel="stylesheet">
 
 
 
 </head>
 
 <body class="d-flex flex-column sticky-footer-wrapper">
-  <main class="container-fluid  flex-fill">
+ <section > 
+  <main align=center  class="container-fluid  flex-fill">
 
       
     
-      <article id="largerstring" class="col-md-4 ">
+      <div id="largerstring"  class="container-fluid  flex-fill">
         <h2>Wanna Find Out Largest Word!!</h2>
         
 
 
-        <fieldset class="mt-2">
+        <fieldset>
           <label for="guest">Enter Your Name (1 to 100):</label>
-          <input v-model="guest" id="Guest" type="text" min="1" max="100" Value='Mohan'>
+          <input v-model="guest" id="Guest" type="text" min="1" max="100">
           <span id="GuestWarning" class="text-danger"></span>
         </fieldset>
 
-        <fieldset class="mt-2">
-          <label for="first">Enter second String (1 to 100):</label>
+        <fieldset>
+          <label for="first">Enter First Word(1 to 100):</label>
           <input v-model="firstString" id="firstString" type="text" min="1" max="100">
           <span id="firstWarning" class="text-danger"></span>
         </fieldset>
-        <fieldset class="mt-2">
-          <label for="second">Enter second String (1 to 100):</label>
+        <fieldset >
+          <label for="second">Enter Second Word(1 to 100):</label>
           <input v-model="secondString" id="secondString" type="text" min="1" max="100">
           <span id="secondWarning" class="text-danger"></span>
         </fieldset>
 
         <h3 class="mt-2">{{string}}</h3>
-      </article>
-
+      </section>
+    </div>
      
 
 
@@ -76,9 +74,9 @@
     <div class="container">
       <span class="text-muted">Right-click / Inspect / Console</span>
       &#9670;
-      <a href="https://denisecase.github.io/js-gui-vue/">Demo</a>
+      <a href="https://raghunandankumar.github.io/Vue.js-App-Challenge/">Demo</a>
       &#9670;
-      <a href="https://github.com/denisecase/js-gui-vue">Source</a>
+      <a href="https://github.com/RaghunandanKumar/Vue.js-App-Challenge">Source</a>
     </div>
   </footer>
 

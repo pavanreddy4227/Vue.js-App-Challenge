@@ -3,7 +3,7 @@ body,
   min-height: 100vh;
 }
 
-article {
+section {
   background-color: aliceblue;
   padding: 1em;
   margin: 1em;
